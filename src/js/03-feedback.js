@@ -30,5 +30,6 @@ function submitForm(event) {
     event.preventDefault();
     console.log(JSON.parse(localStorage.getItem('feedback-form-state')));
     localStorage.removeItem('feedback-form-state');
+    arr = {};
     formEl.reset();
 }
